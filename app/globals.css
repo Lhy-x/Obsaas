@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "SN Pro";
+  src: url("/fonts/SNPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SN Pro";
+  src: url("/fonts/SNPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SN Pro";
+  src: url("/fonts/SNPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nimbus Sans";
+  src: url("/fonts/NimbusSans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #518dff;
+  --text-dark: #151531;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "SN Pro", sans-serif;
+  color: var(--text-dark);
+  background-color: white;
+}
+
+.font-nimbus {
+  font-family: "Nimbus Sans", sans-serif;
+}
+
